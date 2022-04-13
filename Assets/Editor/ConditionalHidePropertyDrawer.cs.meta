@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Editor/ConditionalHidePropertyDrawer.cs.meta
 guid: dd9df1cc95fde4d0a99f481f5b870bde
+=======
+guid: a028b4f850f810e41961de7996e7cf1b
+>>>>>>> 3d080a03c2974dd71856da363d438b522dec9cad:Assets/Scripts/CameraController.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
