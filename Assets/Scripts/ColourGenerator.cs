@@ -9,7 +9,7 @@ public class ColourGenerator : MonoBehaviour {
     public float normalOffsetWeight;
 
     Texture2D texture;
-    const int textureResolution = 50;
+    const int textureResolution = 100;
 
     void Init () {
         if (texture == null || texture.width != textureResolution) {
@@ -21,9 +21,9 @@ public class ColourGenerator : MonoBehaviour {
         Init ();
         UpdateTexture ();
 
-        MeshGenerator m = FindObjectOfType<MeshGenerator> ();
+       
 
-        float boundsY = m.boundsSize * m.numChunks.y;
+        float boundsY = 30;
 
         mat.SetFloat ("boundsY", boundsY);
         mat.SetFloat ("normalOffsetWeight", normalOffsetWeight);
